@@ -42,7 +42,7 @@ while True:
     now_time_1=date.strftime('%H:%M')
     day_1 = datetime.now().date()
     
-    print(" Now: ",NOW," rubles ",now_time_1," ",day_1,"       Difference: ",NOW-was)
+    print("Now: ",NOW," rubles ",now_time_1," ",day_1,"       Difference: ",NOW-was)
     print("-------------------------------------------------------------------------------------------")
     r = NOW-was
     with open ("do_aftet.txt","a") as f:
