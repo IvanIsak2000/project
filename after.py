@@ -51,4 +51,5 @@ while True:
         for string in text:
             st += str(string)
         f.write(st)
+    n +=1
    
