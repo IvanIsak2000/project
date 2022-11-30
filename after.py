@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time 
 from datetime import datetime
 import re
-t= int(input("Введите срок между проверками(секундах): "))
+t= int(input("Время проверки/check time(сек/sec): "))
 n=0 
 Z=1 
 while True:
