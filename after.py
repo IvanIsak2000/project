@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 import re
 t= int(input("Введите срок между проверками(секундах): "))
-n=1 
+n=0 
 Z=1 
 while True:
     Z=1
@@ -25,7 +25,7 @@ while True:
         Z -=1
 
     print("№",n,"\n","Was: ", was," rubles ",now_time," ",day)#СЧИТЫВАЕМ КУРС ПРОШЛОГО ВРЕМЕНИ М СОХРАНЯЕМ ЕГО В ПЕРЕМЕННУЮ was
-    n +=1
+    
     time.sleep(t)#ВРЕМЯ ОЖИДАНИЯ, КОТОРОЕ УКАЗАЛ ПОЛЬЗОВАТЕЛЬ ПЕРЕД НАЧАЛОМ ВЫПОЛНЕНИЯ ПРОГРАММЫ
 
     #СБОР НОВОГО КУРСА ВАЛЮТ
