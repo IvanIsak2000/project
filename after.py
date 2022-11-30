@@ -47,7 +47,7 @@ while True:
     r = NOW-was
     with open ("do_aftet.txt","a") as f:
         st=" "
-        text= ("№",n,"\n","Was:  ", was," rubles ",now_time," ",day,"\n","Now: ",NOW," rubles ",now_time_1," ",day_1,"    Difference: ",r,"\n","-------------------------------------------------------------------------------------------","\n")
+        text= ("№",n,"\n","Was: ", was," rubles ",now_time," ",day,"\n","Now: ",NOW," rubles ",now_time_1," ",day_1,"    Difference: ",r,"\n","-------------------------------------------------------------------------------------------","\n")
         for string in text:
             st += str(string)
         f.write(st)
