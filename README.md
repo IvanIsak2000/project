@@ -1,8 +1,9 @@
-# DOLLAR_MONITORING
-<h1>
-  hey there
-  <img src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="30px"/>
-</h1>
+# DOLLAR_MONITORING<
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="100"/>
+</div>
+
+
 
 EN
 ==
@@ -14,8 +15,16 @@ RU
 
 НАПРИМЕР
 ===
-Запусти нашу программа:
+
+Запустим нашу программа:
 >![image](https://user-images.githubusercontent.com/79650307/211669765-b2a38b76-9b9f-47ce-9efc-d231e54e9786.png)
+>
 >Программа спрашивает, через сколько секунд будут обновляться данные.В нашем случае - через 2 секунды.
->Скрипт сразу же получает информацию отсюда **https://www.google.ru/search?q=dollar+to+ruble&newwindow=1&sxsrf=AJOqlzUqaVE2nHpaZ4e1pv3OBtnZvdLVEA%3A1673387464311&ei=yN29Y4TTEuvErgTt8a_oAg&oq=dollar+to+ru&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgsIABCABBCxAxCDATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyBQgAEIAEMggIABCABBDLAToHCCMQ6gIQJzoMCAAQ6gIQtAIQQxgBOgQIIxAnOhEILhCDARDHARCxAxDRAxCABDoJCAAQgAQQChABOhEILhCABBCxAxCDARDHARDRAzoLCC4QgAQQsQMQgwE6BAgAEEM6CggAELEDEIMBEEM6CAgAELEDEIMBOhAILhCxAxCDARDHARDRAxBDOgQILhBDOgoILhCxAxCDARBDOgYIABAKEEM6CggAEIAEEAoQywE6DQgAEIAEEMsBEEYQggJKBAhBGABKBAhGGAFQAFiOImD6KGgBcAF4AIABcIgBtAqSAQQxMC40mAEAoAEBsAEUwAEB2gEGCAEQARgB&sclient=gws-wiz-serp
-**
+>Потом ждёт введённое нами время и снова получает информацию, выводит в окно консоли и сохраняет результат в файл do_after.txt
+
+>![image](https://user-images.githubusercontent.com/79650307/211670535-f24f15f8-c461-42cc-9fa6-c9a33bb85bbc.png)
+
+>ВАЖНО: программа будет работать бесконечно, пока будет работать интернет и пока запущена программа.Для завершения программы - закройте окно консоли
+
+
+
