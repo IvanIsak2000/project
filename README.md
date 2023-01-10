@@ -20,8 +20,10 @@ EXAMPLE
 ===
 Run our program:
 >![image](https://user-images.githubusercontent.com/79650307/211669765-b2a38b76-9b9f-47ce-9efc-d231e54e9786.png)
+>
 >It asks how many seconds (in integer format) the data will be updated. In our case, in 2 seconds.
 >Then it waits for the time we entered and gets information again, displays it in the console window and saves the result in the file do_after.txt
+>
 >![image](https://user-images.githubusercontent.com/79650307/211670535-f24f15f8-c461-42cc-9fa6-c9a33bb85bbc.png)
 
 >IMPORTANT: the program will run forever, as long as the internet is available and the program is running.
@@ -30,7 +32,7 @@ Run our program:
 ERROR HANDLING
 ==
 Error handling has been minimised.An error can only occur when the time period is full.
-If the user enters e.g. a letter, the program will quit:
+If the user enters a letter, the program will quit:
 >![image](https://user-images.githubusercontent.com/79650307/211672598-92d00b56-342a-4d00-b77e-8611c2f10b61.png)
 
 
