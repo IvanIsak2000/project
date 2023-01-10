@@ -1,4 +1,4 @@
-# DOLLAR_MONITORING<
+# DOLLAR_MONITORING
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="100" height ="50"/>
   <img src="https://media.giphy.com/media/l3vRfNA1p0rvhMSvS/giphy.gif" width="100" height="50"/>
@@ -7,12 +7,12 @@
 
 
 
-EN
-==
-Google exchange rate program 
+   EN
+=========
 
 PURPOSE
 ==
+Google exchange rate program.
 The program can be useful for tracking currencies at a given time, while keeping the result in a readable form: it records the currency rate, time, difference.
 Outputs an amount equal to one U.S. dollar 
 
@@ -36,12 +36,11 @@ If the user enters a letter, the program will quit:
 >![image](https://user-images.githubusercontent.com/79650307/211672598-92d00b56-342a-4d00-b77e-8611c2f10b61.png)
 
 
-RU
-==
-Программа получения курса валют с Google 
-
+   RU
+===
 ЦЕЛЬ
 ==
+Программа получения курса валют с Google.
 Программа может быть полезна для отслеживания валют в заданном времени, при том сохраняет результат в читабельном виде: записывает курс валюты, время, разницу.
 Вывод сумму, равную одному доллару США 
 
